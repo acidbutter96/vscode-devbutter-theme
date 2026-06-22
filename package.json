@@ -44,7 +44,7 @@
   },
   "scripts": {
     "validate": "node scripts/validate-theme.js",
-    "package": "rm -rf build && mkdir -p build && npx @vscode/vsce package -o ./build/devbutter-vscode-theme.vsix"
+    "package": "rm -rf build && mkdir -p build && touch build/.gitkeep && npx @vscode/vsce package -o ./build/devbutter-vscode-theme.vsix"
   },
   "devDependencies": {
     "@vscode/vsce": "latest"
