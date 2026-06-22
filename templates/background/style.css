@@ -1,66 +1,81 @@
 :root {
-  --devbutter-bg: #141628;
-  --devbutter-surface: #0f1115;
-  --devbutter-green: #00d26a;
-  --devbutter-pink: #ff4fa3;
-  --devbutter-white: #ffffff;
-  --devbutter-muted: #a6adc8;
+    --devbutter-bg: #141628;
+    --devbutter-surface: #0f1115;
+    --devbutter-green: #00d26a;
+    --devbutter-pink: #ff4fa3;
+    --devbutter-white: #ffffff;
+    --devbutter-muted: #a6adc8;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  min-height: 100vh;
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  color: var(--devbutter-white);
-  background: var(--devbutter-bg);
+    margin: 0;
+    min-height: 100vh;
+    font-family:
+        Inter,
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+    color: var(--devbutter-white);
+    background: var(--devbutter-bg);
 }
 
 .hero {
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  padding: 48px 24px;
-  background-color: var(--devbutter-bg);
-  background-image:
-    radial-gradient(circle at 20% 20%, rgba(255, 79, 163, 0.2), transparent 32%),
-    radial-gradient(circle at 80% 20%, rgba(0, 210, 106, 0.18), transparent 30%),
-    linear-gradient(rgba(20, 22, 40, 0.82), rgba(20, 22, 40, 0.94)),
-    url("../../assets/Illustration - composition 22.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 48px 24px;
+    background-color: var(--devbutter-bg);
+    background-image:
+        radial-gradient(
+            circle at 20% 20%,
+            rgba(255, 79, 163, 0.2),
+            transparent 32%
+        ),
+        radial-gradient(
+            circle at 80% 20%,
+            rgba(0, 210, 106, 0.18),
+            transparent 30%
+        ),
+        linear-gradient(rgba(20, 22, 40, 0.82), rgba(20, 22, 40, 0.94)),
+        url("../../assets/Illustration - composition 22.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero__content {
-  width: min(760px, 100%);
-  padding: clamp(32px, 6vw, 72px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(15, 17, 21, 0.72);
-  backdrop-filter: blur(18px);
+    width: min(760px, 100%);
+    padding: clamp(32px, 6vw, 72px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(15, 17, 21, 0.72);
+    backdrop-filter: blur(18px);
 }
 
 .eyebrow {
-  margin: 0 0 16px;
-  color: var(--devbutter-green);
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
+    margin: 0 0 16px;
+    color: var(--devbutter-green);
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
 }
 
 h1 {
-  margin: 0;
-  font-size: clamp(42px, 8vw, 88px);
-  line-height: 0.95;
-  letter-spacing: -0.06em;
+    margin: 0;
+    font-size: clamp(42px, 8vw, 88px);
+    line-height: 0.95;
+    letter-spacing: -0.06em;
 }
 
 p {
-  max-width: 58ch;
-  color: var(--devbutter-muted);
-  font-size: clamp(16px, 2vw, 20px);
-  line-height: 1.7;
+    max-width: 58ch;
+    color: var(--devbutter-muted);
+    font-size: clamp(16px, 2vw, 20px);
+    line-height: 1.7;
 }

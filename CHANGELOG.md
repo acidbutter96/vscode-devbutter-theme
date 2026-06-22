@@ -108,9 +108,9 @@
 
 - [#240](https://github.com/primer/github-vscode-theme/pull/240) [`075feb5`](https://github.com/primer/github-vscode-theme/commit/075feb5c753b3ac3fc2029e98203be5134bcd8f7) Thanks [@maximedegreve](https://github.com/maximedegreve)! - # Light High Contrast Theme
 
-  GitHub Light High Contrast is now out of beta and available to everyone. 🎉
+    GitHub Light High Contrast is now out of beta and available to everyone. 🎉
 
-  ![Light High Contrast Theme](https://user-images.githubusercontent.com/980622/151374445-39670cae-ab83-400c-8b7d-fe4dd36c7cc3.png)
+    ![Light High Contrast Theme](https://user-images.githubusercontent.com/980622/151374445-39670cae-ab83-400c-8b7d-fe4dd36c7cc3.png)
 
 ## 5.2.2
 
@@ -137,7 +137,7 @@
 - [#225](https://github.com/primer/github-vscode-theme/pull/225) [`241d482`](https://github.com/primer/github-vscode-theme/commit/241d48297ea3a7c91d6bf3c61b5beffb13044f32) Thanks [@maximedegreve](https://github.com/maximedegreve)! - # Colorblind Light & Dark Theme
   Adds a new GitHub Colorblind Light and Dark theme similar to the themes on github.com.
 
-  ![Colorblind](https://user-images.githubusercontent.com/980622/136975341-4d5eca55-40d6-4d9f-8b33-ba8acbc805e4.png)
+    ![Colorblind](https://user-images.githubusercontent.com/980622/136975341-4d5eca55-40d6-4d9f-8b33-ba8acbc805e4.png)
 
 ## 5.0.3
 

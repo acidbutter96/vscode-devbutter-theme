@@ -1,52 +1,52 @@
 {
-  "name": "devbutter-vscode-theme",
-  "displayName": "DevButter Theme",
-  "description": "A dark VS Code theme inspired by the DevButter brand: software, AI, automation, science and code.",
-  "version": "0.1.0",
-  "publisher": "devbutter",
-  "license": "MIT",
-  "icon": "icon.png",
-  "galleryBanner": {
-    "color": "#141628",
-    "theme": "dark"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/devbutter/devbutter-vscode-theme"
-  },
-  "bugs": {
-    "url": "https://github.com/devbutter/devbutter-vscode-theme/issues"
-  },
-  "engines": {
-    "vscode": "^1.80.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "theme",
-    "dark",
-    "devbutter",
-    "ai",
-    "automation",
-    "software",
-    "pink",
-    "green"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "DevButter Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/devbutter-dark.json"
-      }
-    ]
-  },
-  "scripts": {
-    "validate": "node scripts/validate-theme.js",
-    "package": "mkdir -p build && npx @vscode/vsce package -o ./build/devbutter-vscode-theme.vsix"
-  },
-  "devDependencies": {
-    "@vscode/vsce": "latest"
-  }
+    "name": "devbutter-vscode-theme",
+    "displayName": "DevButter Theme",
+    "description": "A dark VS Code theme inspired by the DevButter brand: software, AI, automation, science and code.",
+    "version": "0.1.0",
+    "publisher": "devbutter",
+    "license": "MIT",
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#141628",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/devbutter/devbutter-vscode-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/devbutter/devbutter-vscode-theme/issues"
+    },
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark",
+        "devbutter",
+        "ai",
+        "automation",
+        "software",
+        "pink",
+        "green"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "DevButter Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/devbutter-dark.json"
+            }
+        ]
+    },
+    "scripts": {
+        "validate": "node scripts/validate-theme.js",
+        "package": "mkdir -p build && npx @vscode/vsce package -o ./build/devbutter-vscode-theme.vsix"
+    },
+    "devDependencies": {
+        "@vscode/vsce": "latest"
+    }
 }
