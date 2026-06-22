@@ -39,11 +39,6 @@
                 "label": "DevButter Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/devbutter-dark.json"
-            },
-            {
-                "label": "DevButter Dark last",
-                "uiTheme": "vs-dark",
-                "path": "./themes/test.json"
             }
         ]
     },

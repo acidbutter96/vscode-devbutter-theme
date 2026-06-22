@@ -10,3 +10,9 @@ templates/**
 *.zip
 *.vsix
 .DS_Store
+
+.gitignore
+.vsixmanifest
+
+src/**
+scripts/**
