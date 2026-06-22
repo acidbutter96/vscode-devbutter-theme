@@ -1,17 +1,17 @@
-$devbutter-green: #00d26a;
-$devbutter-pink: #ff4fa3;
+$devbutter-green: #00D26A;
+$devbutter-pink: #FF4FA3;
 $devbutter-bg: #141628;
 
 @mixin glass-card($alpha: 0.72) {
-    background: rgba(15, 17, 21, $alpha);
-    border: 1px solid rgba($devbutter-green, 0.18);
+  background: rgba(15, 17, 21, $alpha);
+  border: 1px solid rgba($devbutter-green, 0.18);
 }
 
 .hero {
-    @include glass-card();
-    color: white;
+  @include glass-card();
+  color: white;
 
-    &__title {
-        color: $devbutter-pink;
-    }
+  &__title {
+    color: $devbutter-pink;
+  }
 }

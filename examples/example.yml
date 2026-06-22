@@ -1,6 +1,6 @@
 name: devbutter
 services:
-    api:
-        image: python:3.12
-        environment:
-            FEATURE_AGENTS: "true"
+  api:
+    image: python:3.12
+    environment:
+      FEATURE_AGENTS: "true"
