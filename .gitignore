@@ -2,5 +2,6 @@
 node_modules/
 /themes/
 package-lock.json
-build
+build/*
 *.vsix
+!./build/.gitkeep
