@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from pathlib import Path
 
+
 @dataclass(slots=True)
 class AutomationReport:
     project: str
@@ -13,3 +14,18 @@ class AutomationReport:
 
 report = AutomationReport("DevButter", ["analyze", "plan", "execute"], 0.98)
 Path("report.md").write_text(report.markdown())
+
+def test(variable: tuple, *args, **kwargs) -> None:
+    ...
+
+test(
+    variable=(
+        "testing",
+        (
+            "testing2",
+            (
+                "testing3"
+            )
+        ),
+    )
+)
