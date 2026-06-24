@@ -1,5 +1,14 @@
 # github-vscode-theme
 
+## Unreleased
+
+### Changed
+
+- Reduced redundant `semanticTokenColors` variants and aligned symbol roles across semantic and TextMate highlighting.
+- Unified function and method highlighting around cyan and kept type-oriented symbols in pink.
+- Softened workbench chrome by replacing neon structural borders and noisy inactive states with darker neutral tones.
+- Removed green from generic workbench icon roles and reassigned those icons to pink to keep the main DevButter identity.
+
 ## 6.3.5
 
 ### Patch Changes

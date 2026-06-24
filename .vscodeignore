@@ -5,6 +5,7 @@ node_modules/**
 build/**
 .vscode/**
 examples/**
+assets/**
 templates/**
 ./project.zip
 *.zip
@@ -14,5 +15,12 @@ templates/**
 .gitignore
 .vsixmanifest
 
+templates
 src/**
 scripts/**
+
+!README.md
+!CHANGELOG.md
+*.md
+
+
