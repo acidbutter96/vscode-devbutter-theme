@@ -3,7 +3,10 @@ const path = require('path');
 
 const files = [
   'package.json',
-  path.join('themes', 'devbutter-dark.json')
+  path.join('themes', 'devbutter-dark.json'),
+  path.join('themes', 'devbutter-dark-2.json'),
+  path.join('themes', 'devbutter-dark-devpalette-v3-variants.json'),
+  path.join('themes', 'devbutter-dark-restored-ui-syntax-v5.json')
 ];
 
 for (const file of files) {

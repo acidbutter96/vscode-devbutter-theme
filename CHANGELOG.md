@@ -8,6 +8,11 @@
 - Unified function and method highlighting around cyan and kept type-oriented symbols in pink.
 - Softened workbench chrome by replacing neon structural borders and noisy inactive states with darker neutral tones.
 - Removed green from generic workbench icon roles and reassigned those icons to pink to keep the main DevButter identity.
+- Removed white variable highlighting and moved core code reading back toward the green and pink palette.
+- Reduced the remaining cyan and teal token groups and workbench symbol roles so the theme reads primarily in green and pink.
+- Polished line numbers, selection surfaces, highlights, info states, and ANSI utility colors to align the whole visual system around green and pink.
+- Reintroduced selected cyan and teal accents for info, modified states, and terminal utilities to restore visual richness without changing the green/pink core.
+- Reintroduced cyan and teal into primary syntax roles such as functions, properties, escapes, SQL symbols, and technical markup to rebalance the palette.
 
 ## 6.3.5
 

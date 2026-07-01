@@ -39,6 +39,21 @@
                 "label": "DevButter Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/devbutter-dark.json"
+            },
+            {
+                "label": "DevButter Dark 2",
+                "uiTheme": "vs-dark",
+                "path": "./themes/devbutter-dark-2.json"
+            },
+            {
+                "label": "DevButter Dark Dev palette",
+                "uiTheme": "vs-dark",
+                "path": "./themes/devbutter-dark-devpalette-v3-variants.json"
+            },
+            {
+                "label": "DevButter Dark Balanced",
+                "uiTheme": "vs-dark",
+                "path": "./themes/devbutter-dark-restored-ui-syntax-v5.json"
             }
         ]
     },
