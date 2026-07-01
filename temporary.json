@@ -1,0 +1,262 @@
+{
+    // ---------------------------------------------------------------------------
+    // Python / Pylance
+    // Only one Python language server: Pylance.
+    // ---------------------------------------------------------------------------
+    "python.languageServer": "Pylance",
+    "pytest.command": "poetry run pytest test",
+    "pytest-fixtures.additionalDecorators": [],
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.indexing": true,
+    "python.analysis.includeAliasesFromUserFiles": true,
+    "python.analysis.showOnlyDirectDependenciesInAutoImport": true,
+    "python.analysis.autoIndent": true,
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.autoSplitStrings": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.inlayHints.variableTypes": false,
+    "python.analysis.inlayHints.functionReturnTypes": false,
+    "python.analysis.enableMangleName": true,
+    "python.useEnvironmentsExtension": true,
+    "python.terminal.useEnvFile": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python-envs.defaultEnvManager": "ms-python.python:poetry",
+    "python-envs.defaultPackageManager": "ms-python.python:poetry",
+    // ---------------------------------------------------------------------------
+    // Python files only
+    // ---------------------------------------------------------------------------
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.pylance": "explicit",
+            "source.organizeImports.pylance": "explicit"
+        },
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        },
+        "editor.suggestOnTriggerCharacters": false,
+        "editor.acceptSuggestionOnCommitCharacter": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "off",
+        "editor.parameterHints.enabled": true,
+        "editor.suggest.showMethods": true,
+        "editor.suggest.showFunctions": true,
+        "editor.suggest.showClasses": true,
+        "editor.suggest.showConstructors": true,
+        "editor.suggest.showProperties": true,
+        "editor.suggest.showFields": true,
+        "editor.suggest.showVariables": true,
+        "editor.suggest.showModules": true,
+        "editor.suggest.showKeywords": true,
+        "editor.suggest.showSnippets": false,
+        "editor.suggest.showWords": true,
+        "editor.autoIndentOnPaste": true,
+        "editor.suggest.showConstants": true,
+        "editor.autoIndentOnPasteWithinString": true,
+        "editor.fontLigatures": true,
+        "editor.acceptSuggestionOnEnter": "on",
+        "editor.language.colorizedBracketPairs": [
+            [
+                "(",
+                ")"
+            ],
+            [
+                "[",
+                "]"
+            ],
+            [
+                "{",
+                "}"
+            ]
+        ]
+    },
+    // ---------------------------------------------------------------------------
+    // Hex files
+    // ---------------------------------------------------------------------------
+    "[hex]": {
+        "diffEditor.codeLens": true,
+        "breadcrumbs.showBooleans": true,
+        "editor.colorDecorators": true
+    },
+    // ---------------------------------------------------------------------------
+    // Editor - global behavior
+    // Theme colors are handled by the DevButter theme extension.
+    // ---------------------------------------------------------------------------
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.inlineSuggest.enabled": false,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 3,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorSurroundingLines": 2,
+    "editor.smoothScrolling": true,
+    "editor.renderLineHighlight": "all",
+    "editor.renderWhitespace": "selection",
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveIndentation": true,
+    // ---------------------------------------------------------------------------
+    // Brackets - behavior only
+    // Bracket colors are handled by the DevButter theme extension.
+    // ---------------------------------------------------------------------------
+    "editor.bracketPairColorization.enabled": true,
+    "editor.autoClosingBrackets": "languageDefined",
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": "active",
+    // ---------------------------------------------------------------------------
+    // Notebook / Jupyter
+    // Notebook colors are handled by the DevButter theme extension.
+    // ---------------------------------------------------------------------------
+    "notebook.defaultFormatter": "charliermarsh.ruff",
+    "notebook.lineNumbers": "on",
+    "notebook.output.wordWrap": true,
+    "notebook.output.linkifyFilePaths": true,
+    // ---------------------------------------------------------------------------
+    // Debug
+    // Debug colors are handled by the DevButter theme extension.
+    // ---------------------------------------------------------------------------
+    "debug.console.fontSize": 14,
+    "debug.internalConsoleOptions": "neverOpen",
+    "debug.toolBarLocation": "docked",
+    // ---------------------------------------------------------------------------
+    // Workbench behavior
+    // Workbench colors are handled by the DevButter theme extension.
+    // ---------------------------------------------------------------------------
+    "window.titleBarStyle": "custom",
+    "workbench.iconTheme": "catppuccin-perfect-aura",
+    "workbench.commandPalette.experimental.suggestCommands": false,
+    // "workbench.tree.indent": 18,
+    "ProjectTree.theme": "perfect",
+    "ProjectTree.commentDistance": 5,
+    "ProjectTree.distFileName": "README.md",
+    "ProjectTree.loadIgnore": true,
+    // ---------------------------------------------------------------------------
+    // Terminal behavior
+    // Terminal colors are handled by the DevButter theme extension.
+    // ---------------------------------------------------------------------------
+    "terminal.integrated.shellIntegration.enabled": false,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorWidth": 3,
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.profiles.osx": {
+        "zsh": {
+            "path": "/bin/zsh",
+            "args": [
+                "-l"
+            ]
+        }
+    },
+    // ---------------------------------------------------------------------------
+    // Chat / AI features
+    // ---------------------------------------------------------------------------
+    "chat.agent.enabled": false,
+    // ---------------------------------------------------------------------------
+    // Files / Explorer / Spell checker
+    // ---------------------------------------------------------------------------
+    // "files.defaultLanguage": "plaintext",
+    "files.associations": {
+        ".env": "dotenv",
+        ".env.*": "dotenv",
+        "*.env": "dotenv",
+        "*.env.*": "dotenv",
+        ".env.example": "dotenv",
+        ".env.local": "dotenv",
+        ".env.development": "dotenv",
+        ".env.production": "dotenv",
+        ".env.test": "dotenv"
+    },
+    "explorer.confirmDelete": false,
+    // ---------------------------------------------------------------------------
+    // Containers
+    // ---------------------------------------------------------------------------
+    "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+    "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
+    // ---------------------------------------------------------------------------
+    // VS Code Pets
+    // ---------------------------------------------------------------------------
+    "vscode-pets.petSize": "medium",
+    "vscode-pets.theme": "winter",
+    "vscode-pets.position": "explorer",
+    "[ini]": {},
+    "cSpell.useLocallyInstalledCSpellDictionaries": false,
+    "cSpell.mergeCSpellSettings": false,
+    "cSpell.enabled": false,
+    "editor.formatOnPaste": true,
+    "js/ts.format.insertSpaceAfterConstructor": true,
+    "[editorconfig]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "EditorConfig.EditorConfig"
+    },
+    "background.enabled": true,
+    "background.editor": {
+        "images": [
+            "file:///Users/marcospereira/.vscode/extensions/devbutter.devbutter-vscode-theme-0.1.0/assets/background.png"
+        ],
+        "style": {
+            "background-position": "right bottom",
+            "background-size": "50%",
+            "background-repeat": "no-repeat",
+            "opacity": 0.4,
+            "z-index": "0"
+        },
+        "interval": 0,
+        "random": false
+    },
+    "background.sidebar": {
+        "images": [
+            "/Users/marcospereira/.vscode/extensions/devbutter.devbutter-vscode-theme-0.1.0/assets/sidebar.png"
+        ],
+        "opacity": 0.25,
+        "size": "contain",
+        "position": "right bottom",
+        "interval": 0,
+        "random": false
+    },
+    "chat.checkpoints.enabled": false,
+    "chat.disableAIFeatures": true,
+    "python.analysis.supportAllPythonDocuments": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.defaultFoldingRangeProvider": "ms-python.vscode-pylance",
+    "[dockercompose]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-containers"
+    },
+    "editor.largeFileOptimizations": false,
+    // Enable/disable auto-save functionality
+    "enhancedAutosave.enabled": true,
+    // Delay before saving (in milliseconds)
+    "enhancedAutosave.debounceTime": 1000,
+    // Show notifications when files are saved
+    "enhancedAutosave.showNotifications": true,
+    "jupyter.askForKernelRestart": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    "notebook.editorOptionsCustomizations": {
+        "editor.autoClosingBrackets": "languageDefined",
+    },
+    "sherlock.userId": "ed76901e-8a02-42d3-9738-07d516428610",
+    "json.schemaDownload.trustedDomains": {
+        "https://schemastore.azurewebsites.net/": true,
+        "https://raw.githubusercontent.com/microsoft/vscode/": true,
+        "https://raw.githubusercontent.com/devcontainers/spec/": true,
+        "https://www.schemastore.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://json-schema.org/": true,
+        "https://developer.microsoft.com/json-schemas/": true,
+        "https://biomejs.dev": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.colorTheme": "DevButter Dark Balanced",
+    "python.analysis.typeCheckingMode": "basic"
+}
